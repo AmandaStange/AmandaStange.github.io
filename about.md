@@ -1,5 +1,6 @@
 ---
 title: About this website
+feature_image: "https://raw.githubusercontent.com/AmandaStange/AmandaDyrholmStange/main/_figures/SUC1_cartoon0001.jpg"
 ---
 
 This is a website made for showcasing some of the molecular renders that I've created over time. 
