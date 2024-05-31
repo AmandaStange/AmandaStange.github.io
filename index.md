@@ -1,5 +1,5 @@
 ---
-title: Welcome to my website
+title: Amanda Dyrholm Stange
 feature_image: "https://raw.githubusercontent.com/AmandaStange/AmandaDyrholmStange/main/_figures/cell0005.png" #https://raw.githubusercontent.com/AmandaStange/AmandaDyrholmStange/main/_figures/cell0005.png
 # feature_text: |
 #   ## Amanda Dyrholm Stange
