@@ -129,7 +129,9 @@
 		}
 
 	body {
-		background-image: url('images/overlay.png'), url('images/bg.jpg');
+		background-image: url('images/overlay.png'), url('images/cell_portrait0001.png');
+		// background-image: url('images/overlay.png'), url('images/bg.jpg');
+		
 		background-repeat: repeat, no-repeat;
 		background-size: auto, 100% 100%;
 		background-attachment: fixed;
