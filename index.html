@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Amanda Dyrholm Stange – Work</title>
+  <title>Gallery Height Test</title>
 
   <!-- Lightbox2 CSS -->
   <link href="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/css/lightbox.min.css" rel="stylesheet" />
@@ -11,9 +11,8 @@
   <style>
     body {
       font-family: sans-serif;
-      margin: 0;
       padding: 2rem;
-      background-color: #fdfdfd;
+      background-color: #f9f9f9;
     }
 
     h1 {
@@ -36,7 +35,8 @@
       width: 100%;
       height: auto;
       display: block;
-      border-radius: 4px;
+      border-radius: 6px;
+      box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
     }
 
     @media (max-width: 899px) {
@@ -54,36 +54,43 @@
 </head>
 <body>
 
-  <h1>Work by Amanda Dyrholm Stange</h1>
-  <p style="text-align: center;">A collection of molecular renders. Made with <a href="https://bradyajohnston.github.io/MolecularNodes/">Molecular Nodes</a>.</p>
+  <h1>Independent Row Heights Test</h1>
+  <p style="text-align: center;">These images have different heights. Rows should adjust independently.</p>
 
   <section class="grid-container">
-    <!-- All figures here -->
-	<div class="figure"><a href="https://via.placeholder.com/400x200" data-lightbox="gallery"><img src="https://via.placeholder.com/400x200" alt=""></a></div>
-	<div class="figure"><a href="https://via.placeholder.com/400x300" data-lightbox="gallery"><img src="https://via.placeholder.com/400x300" alt=""></a></div>
-	<div class="figure"><a href="https://via.placeholder.com/400x150" data-lightbox="gallery"><img src="https://via.placeholder.com/400x150" alt=""></a></div>
-	<div class="figure"><a href="https://via.placeholder.com/400x150" data-lightbox="gallery"><img src="https://via.placeholder.com/400x150" alt=""></a></div>
-	<div class="figure"><a href="https://via.placeholder.com/400x200" data-lightbox="gallery"><img src="https://via.placeholder.com/400x200" alt=""></a></div>
-	<div class="figure"><a href="https://via.placeholder.com/400x300" data-lightbox="gallery"><img src="https://via.placeholder.com/400x300" alt=""></a></div>		
-    <!-- <div class="figure"><a href="images/VirusPoster_100.jpg" data-lightbox="gallery"><img src="images/VirusPoster_100.jpg" alt=""></a></div>
-    <div class="figure"><a href="images/1MBN0014_100.jpg" data-lightbox="gallery"><img src="images/1MBN0014_100.jpg" alt=""></a></div>
-    <div class="figure"><a href="images/MembranePoster_100.jpg" data-lightbox="gallery"><img src="images/MembranePoster_100.jpg" alt=""></a></div>
-    <div class="figure"><a href="images/spikeRNA_100.jpg" data-lightbox="gallery"><img src="images/spikeRNA_100.jpg" alt=""></a></div>
-    <div class="figure"><a href="images/cell0005_100.jpg" data-lightbox="gallery"><img src="images/cell0005_100.jpg" alt=""></a></div>
-    <div class="figure"><a href="images/HSP0001_100.jpg" data-lightbox="gallery"><img src="images/HSP0001_100.jpg" alt=""></a></div>
-    <div class="figure"><a href="images/SUC1_cartoon0001_100.jpg" data-lightbox="gallery"><img src="images/SUC1_cartoon0001_100.jpg" alt=""></a></div>
-    <div class="figure"><a href="images/HSP_ZOOM0001_100.jpg" data-lightbox="gallery"><img src="images/HSP_ZOOM0001_100.jpg" alt=""></a></div>
-    <div class="figure"><a href="images/background_100.jpg" data-lightbox="gallery"><img src="images/background_100.jpg" alt=""></a></div>
-    <div class="figure"><a href="images/CA_multiple_focus0005_100.jpg" data-lightbox="gallery"><img src="images/CA_multiple_focus0005_100.jpg" alt=""></a></div>
-    <div class="figure"><a href="images/insfalling_frame0445_100.jpg" data-lightbox="gallery"><img src="images/insfalling_frame0445_100.jpg" alt=""></a></div>
-    <div class="figure"><a href="images/IR_fs06_yellow_100.jpg" data-lightbox="gallery"><img src="images/IR_fs06_yellow_100.jpg" alt=""></a></div>
-    <div class="figure"><a href="images/RespSup_frame0001_04_93_7680_1440_100.jpg" data-lightbox="gallery"><img src="images/RespSup_frame0001_04_93_7680_1440_100.jpg" alt=""></a></div>
-    <div class="figure"><a href="images/ZAR1_frame0001_old_100.jpg" data-lightbox="gallery"><img src="images/ZAR1_frame0001_old_100.jpg" alt=""></a></div>
-    <div class="figure"><a href="images/IR1_figure0001_100.jpg" data-lightbox="gallery"><img src="images/IR1_figure0001_100.jpg" alt=""></a></div>
-    <div class="figure"><a href="images/SUC_grass_100.jpg" data-lightbox="gallery"><img src="images/SUC_grass_100.jpg" alt=""></a></div> -->
+    <div class="figure">
+      <a href="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png" data-lightbox="gallery">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png" alt="Image 1">
+      </a>
+    </div>
+    <div class="figure">
+      <a href="https://upload.wikimedia.org/wikipedia/commons/3/3f/Fronalpstock_big.jpg" data-lightbox="gallery">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Fronalpstock_big.jpg" alt="Image 2">
+      </a>
+    </div>
+    <div class="figure">
+      <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Moon.jpg/600px-Moon.jpg" data-lightbox="gallery">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Moon.jpg/600px-Moon.jpg" alt="Image 3">
+      </a>
+    </div>
+	<div class="figure">
+		<a href="https://upload.wikimedia.org/wikipedia/commons/3/3f/Fronalpstock_big.jpg" data-lightbox="gallery">
+		  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Fronalpstock_big.jpg" alt="Image 2">
+		</a>
+	  </div>
+	  <div class="figure">
+		<a href="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Moon.jpg/600px-Moon.jpg" data-lightbox="gallery">
+		  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Moon.jpg/600px-Moon.jpg" alt="Image 3">
+		</a>
+	  </div>
+	  <a href="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png" data-lightbox="gallery">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png" alt="Image 1">
+      </a>
+    </div>
   </section>
 
   <!-- Lightbox2 JS -->
   <script src="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/js/lightbox.min.js"></script>
+
 </body>
 </html>
