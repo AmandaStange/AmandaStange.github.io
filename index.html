@@ -1,135 +1,139 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-	<title>Amanda Dyrholm Stange</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/css/lightbox.min.css" />
-	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	<style>
-		.grid-container {
-			display: flex !important;
-			flex-wrap: wrap !important;
-			gap: 10px;
-			align-items: flex-start !important;
-		}
-	
-		.grid-container .figure {
-			width: calc(33.333% - 10px) !important;
-			box-sizing: border-box;
-			align-self: flex-start !important;
-		}
-	
-		.grid-container .figure img {
-			width: 100% !important;
-			height: auto !important;
-			display: block;
-			object-fit: contain;
-		}
-	
-		@media (max-width: 899px) {
-			.grid-container .figure {
-				width: calc(50% - 10px) !important;
-			}
-		}
-		@media (max-width: 599px) {
-			.grid-container .figure {
-				width: 100% !important;
-			}
-		}
-	</style>
+  <title>Amanda Dyrholm Stange</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/css/lightbox.min.css" />
+  <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+  <style>
+    .grid-container {
+      display: flex !important;
+      flex-wrap: wrap !important;
+      gap: 10px !important;
+      align-items: flex-start !important;
+      margin-top: 2em;
+    }
+
+    .grid-container .figure {
+      width: calc(33.333% - 10px) !important;
+      box-sizing: border-box !important;
+      align-self: flex-start !important;
+    }
+
+    .grid-container .figure img {
+      display: block !important;
+      width: 100% !important;
+      height: auto !important;
+      object-fit: contain !important;
+    }
+
+    @media (max-width: 899px) {
+      .grid-container .figure {
+        width: calc(50% - 10px) !important;
+      }
+    }
+
+    @media (max-width: 599px) {
+      .grid-container .figure {
+        width: 100% !important;
+      }
+    }
+  </style>
 </head>
+
 <body class="is-preload">
+  <div id="wrapper">
 
-	<div id="wrapper">
+    <!-- Nav -->
+    <nav id="nav">
+      <a href="#" class="icon solid fa-home"><span>Home</span></a>
+      <a href="#work" class="icon solid fa-folder"><span>Work</span></a>
+      <a href="mailto:amandadyrholm@gmail.com" class="icon solid fa-envelope"><span>Contact</span></a>
+    </nav>
 
-		<!-- Nav -->
-		<nav id="nav">
-			<a href="#" class="icon solid fa-home"><span>Home</span></a>
-			<a href="#work" class="icon solid fa-folder"><span>Work</span></a>
-			<a href="mailto:amandadyrholm@gmail.com" class="icon solid fa-envelope"><span>Contact</span></a>
-		</nav>
+    <!-- Main -->
+    <div id="main">
 
-		<!-- Main -->
-		<div id="main">
+      <!-- Me -->
+      <article id="home" class="panel intro">
+        <header>
+          <h1>Amanda Dyrholm Stange</h1>
+          <p>PhD Student in Computational Biophysics</p>
+        </header>
+        <a href="#work" class="jumplink pic">
+          <span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
+          <img src="images/HSP_ZOOM0001_100.jpg" alt="" />
+        </a>
+      </article>
 
-			<!-- Me -->
-			<article id="home" class="panel intro">
-				<header>
-					<h1>Amanda Dyrholm Stange</h1>
-					<p>Postdoctoral Fellow in Computational Biophysics</p>
-				</header>
-				<a href="#work" class="jumplink pic">
-					<span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
-					<img src="images/HSP_ZOOM0001_100.jpg" alt="" />
-				</a>
-			</article>
+      <!-- Work -->
+      <article id="work" class="panel">
+        <header>
+          <h2>Work</h2>
+        </header>
+        <p>
+          This is a website made for showcasing some of the molecular renders that I've created over time.<br><br>
+          The primary blender add-on I've used is 
+          <a href="https://bradyajohnston.github.io/MolecularNodes/">Molecular nodes</a>.
+        </p>
 
-			<!-- Work -->
-			<article id="work" class="panel">
-				<header>
-					<h2>Work</h2>
-				</header>
-				<p>
-					This is a website made for showcasing some of the molecular renders that I've created over time.<br><br>
-					The primary blender add-on I've used is 
-					<a href="https://bradyajohnston.github.io/MolecularNodes/">Molecular nodes</a>.
-				</p>
-				<section class="grid-container">
-					<div class="figure"><a href="images/VirusPoster_100.jpg" data-lightbox="gallery"><img src="images/VirusPoster_100.jpg" alt=""></a></div>
-					<div class="figure"><a href="images/1MBN0014_100.jpg" data-lightbox="gallery"><img src="images/1MBN0014_100.jpg" alt=""></a></div>
-					<div class="figure"><a href="images/MembranePoster_100.jpg" data-lightbox="gallery"><img src="images/MembranePoster_100.jpg" alt=""></a></div>
-					<div class="figure"><a href="images/spikeRNA_100.jpg" data-lightbox="gallery"><img src="images/spikeRNA_100.jpg" alt=""></a></div>
-					<div class="figure"><a href="images/cell0005_100.jpg" data-lightbox="gallery"><img src="images/cell0005_100.jpg" alt=""></a></div>
-					<div class="figure"><a href="images/HSP0001_100.jpg" data-lightbox="gallery"><img src="images/HSP0001_100.jpg" alt=""></a></div>
-					<div class="figure"><a href="images/SUC1_cartoon0001_100.jpg" data-lightbox="gallery"><img src="images/SUC1_cartoon0001_100.jpg" alt=""></a></div>
-					<div class="figure"><a href="images/HSP_ZOOM0001_100.jpg" data-lightbox="gallery"><img src="images/HSP_ZOOM0001_100.jpg" alt=""></a></div>
-					<div class="figure"><a href="images/background_100.jpg" data-lightbox="gallery"><img src="images/background_100.jpg" alt=""></a></div>
-					<div class="figure"><a href="images/CA_multiple_focus0005_100.jpg" data-lightbox="gallery"><img src="images/CA_multiple_focus0005_100.jpg" alt=""></a></div>
-					<div class="figure"><a href="images/insfalling_frame0445_100.jpg" data-lightbox="gallery"><img src="images/insfalling_frame0445_100.jpg" alt=""></a></div>
-					<div class="figure"><a href="images/IR_fs06_yellow_100.jpg" data-lightbox="gallery"><img src="images/IR_fs06_yellow_100.jpg" alt=""></a></div>
-					<div class="figure"><a href="images/RespSup_frame0001_04_93_7680_1440_100.jpg" data-lightbox="gallery"><img src="images/RespSup_frame0001_04_93_7680_1440_100.jpg" alt=""></a></div>
-					<div class="figure"><a href="images/ZAR1_frame0001_old_100.jpg" data-lightbox="gallery"><img src="images/ZAR1_frame0001_old_100.jpg" alt=""></a></div>
-					<div class="figure"><a href="images/IR1_figure0001_100.jpg" data-lightbox="gallery"><img src="images/IR1_figure0001_100.jpg" alt=""></a></div>
-					<div class="figure"><a href="images/SUC_grass_100.jpg" data-lightbox="gallery"><img src="images/SUC_grass_100.jpg" alt=""></a></div>
-				</section>
-			</article>
+        <section class="grid-container">
+          <!-- All figures here -->
+          <div class="figure"><a href="images/VirusPoster_100.jpg" data-lightbox="gallery"><img src="images/VirusPoster_100.jpg" alt=""></a></div>
+          <div class="figure"><a href="images/1MBN0014_100.jpg" data-lightbox="gallery"><img src="images/1MBN0014_100.jpg" alt=""></a></div>
+          <div class="figure"><a href="images/MembranePoster_100.jpg" data-lightbox="gallery"><img src="images/MembranePoster_100.jpg" alt=""></a></div>
+          <div class="figure"><a href="images/spikeRNA_100.jpg" data-lightbox="gallery"><img src="images/spikeRNA_100.jpg" alt=""></a></div>
+          <div class="figure"><a href="images/cell0005_100.jpg" data-lightbox="gallery"><img src="images/cell0005_100.jpg" alt=""></a></div>
+          <div class="figure"><a href="images/HSP0001_100.jpg" data-lightbox="gallery"><img src="images/HSP0001_100.jpg" alt=""></a></div>
+          <div class="figure"><a href="images/SUC1_cartoon0001_100.jpg" data-lightbox="gallery"><img src="images/SUC1_cartoon0001_100.jpg" alt=""></a></div>
+          <div class="figure"><a href="images/HSP_ZOOM0001_100.jpg" data-lightbox="gallery"><img src="images/HSP_ZOOM0001_100.jpg" alt=""></a></div>
+          <div class="figure"><a href="images/background_100.jpg" data-lightbox="gallery"><img src="images/background_100.jpg" alt=""></a></div>
+          <div class="figure"><a href="images/CA_multiple_focus0005_100.jpg" data-lightbox="gallery"><img src="images/CA_multiple_focus0005_100.jpg" alt=""></a></div>
+          <div class="figure"><a href="images/insfalling_frame0445_100.jpg" data-lightbox="gallery"><img src="images/insfalling_frame0445_100.jpg" alt=""></a></div>
+          <div class="figure"><a href="images/IR_fs06_yellow_100.jpg" data-lightbox="gallery"><img src="images/IR_fs06_yellow_100.jpg" alt=""></a></div>
+          <div class="figure"><a href="images/RespSup_frame0001_04_93_7680_1440_100.jpg" data-lightbox="gallery"><img src="images/RespSup_frame0001_04_93_7680_1440_100.jpg" alt=""></a></div>
+          <div class="figure"><a href="images/ZAR1_frame0001_old_100.jpg" data-lightbox="gallery"><img src="images/ZAR1_frame0001_old_100.jpg" alt=""></a></div>
+          <div class="figure"><a href="images/IR1_figure0001_100.jpg" data-lightbox="gallery"><img src="images/IR1_figure0001_100.jpg" alt=""></a></div>
+          <div class="figure"><a href="images/SUC_grass_100.jpg" data-lightbox="gallery"><img src="images/SUC_grass_100.jpg" alt=""></a></div>
+        </section>
+      </article>
 
-			<!-- Contact -->
-			<article id="contact" class="panel">
-				<header>
-					<h2>Contact Me</h2>
-				</header>
-				<form action="#" method="post">
-					<div class="row">
-						<div class="col-6 col-12-medium"><input type="text" name="name" placeholder="Name" /></div>
-						<div class="col-6 col-12-medium"><input type="text" name="email" placeholder="Email" /></div>
-						<div class="col-12"><input type="text" name="subject" placeholder="Subject" /></div>
-						<div class="col-12"><textarea name="message" placeholder="Message" rows="6"></textarea></div>
-						<div class="col-12"><input type="submit" value="Send Message" /></div>
-					</div>
-				</form>
-			</article>
+      <!-- Contact -->
+      <article id="contact" class="panel">
+        <header>
+          <h2>Contact Me</h2>
+        </header>
+        <form action="#" method="post">
+          <div class="row">
+            <div class="col-6 col-12-medium"><input type="text" name="name" placeholder="Name" /></div>
+            <div class="col-6 col-12-medium"><input type="text" name="email" placeholder="Email" /></div>
+            <div class="col-12"><input type="text" name="subject" placeholder="Subject" /></div>
+            <div class="col-12"><textarea name="message" placeholder="Message" rows="6"></textarea></div>
+            <div class="col-12"><input type="submit" value="Send Message" /></div>
+          </div>
+        </form>
+      </article>
 
-		</div>
+    </div>
 
-		<!-- Footer -->
-		<div id="footer">
-			<ul class="copyright">
-				<li>&copy; Amanda Dyrholm Stange.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-			</ul>
-		</div>
+    <!-- Footer -->
+    <div id="footer">
+      <ul class="copyright">
+        <li>&copy; Amanda Dyrholm Stange.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+      </ul>
+    </div>
 
-	</div>
+  </div>
 
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/js/lightbox.min.js"></script>
-
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/js/lightbox.min.js"></script>
 </body>
 </html>
