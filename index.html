@@ -11,7 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<style>
+		<!-- <style>
 			/* Additional CSS for the responsive grid layout */
 			.grid-container {
 				display: grid;
@@ -22,6 +22,43 @@
 				width: 100%;
 				height: auto;
 			}
+			@media (max-width: 599px) {
+				.grid-container {
+					grid-template-columns: 1fr;
+				}
+			}
+			@media (min-width: 600px) and (max-width: 899px) {
+				.grid-container {
+					grid-template-columns: 1fr 1fr;
+				}
+			}
+			@media (min-width: 900px) {
+				.grid-container {
+					grid-template-columns: 1fr 1fr 1fr;
+				}
+			}
+		</style> -->
+		<style>
+			/* Updated CSS for independent row heights and equal-width columns */
+			.grid-container {
+				display: grid;
+				grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+				gap: 10px;
+				align-items: start;
+			}
+		
+			.figure {
+				display: flex;
+				flex-direction: column;
+			}
+		
+			.figure img {
+				width: 100%;
+				height: auto;
+				display: block;
+				object-fit: contain;
+			}
+		
 			@media (max-width: 599px) {
 				.grid-container {
 					grid-template-columns: 1fr;
