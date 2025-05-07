@@ -12,25 +12,25 @@
 			display: flex;
 			flex-wrap: wrap;
 			gap: 10px;
+			align-items: flex-start; /* Ensures independent heights */
 		}
 		.figure {
-			flex: 1 1 calc(33.333% - 10px);
+			width: calc(33.333% - 10px);
 			box-sizing: border-box;
 		}
 		.figure img {
 			width: 100%;
 			height: auto;
 			display: block;
-			object-fit: contain;
 		}
 		@media (max-width: 899px) {
 			.figure {
-				flex: 1 1 calc(50% - 10px);
+				width: calc(50% - 10px);
 			}
 		}
 		@media (max-width: 599px) {
 			.figure {
-				flex: 1 1 100%;
+				width: 100%;
 			}
 		}
 	</style>
